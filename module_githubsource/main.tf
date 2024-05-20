@@ -1,0 +1,9 @@
+module "vamsi" {
+    source = "github.com/meenigenikhitha/nikki/day01_terraform"
+    ami_id = "ami-0cc9838aa7ab1dce7"
+    instance_type = "t2.micro"
+    key_name = "nikki-keypair"
+    
+
+
+}
